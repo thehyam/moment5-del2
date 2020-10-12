@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../css/main.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <title>Consuming rest API</title>
+</head>
+<body>
+    <main>
+        <header>
+            <nav id="navbarNav">
+                <!-- Top Navigation Menu -->
+                <div class="topnav">
+                    <a href="#" class="logo">Gulp Project
+                    </a>
+                    <div id="myLinks">
+                        <a href="#" class="active">Home</a>
+                        <a href="#">News</a>
+                        <a href="#">About</a>
+                        <a href="#">Contact</a>
+                    </div>
+                    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                    </a>
+                </div>
+            </nav>
+            <h1>Courses</h1>
+        </header>
+
+        <div class="content">
+            <section>
+                <div class="flex-container">
+                    <div class="addCourse">
+                        <h2>Add a Course</h2>
+                        <form method="get">
+                            <label for="code">Course Code:</label>
+                            <input type="text" name="code" id="code"> <br>
+                            <label for="name">Course Name:</label>
+                            <input type="text" name="name" id="name"> <br>
+                            <label for="prog">Progression</label>
+                            <input type="text" name="prog" id="prog"> <br>
+                            <label for="plan">Course Plan</label>
+                            <input type="text" name="plan" id="plan"> <br>
+                            <input type="submit" id="addCourseButton">
+                        </form>
+                    </div>
+                        <div id="updateSection" ></div>
+                    </div>
+                    <div id="courses" class="courseHolder"></div> <!-- Where the courses goes -->
+                
+            </section>
+        </div>
+
+        <footer class="footer">
+            <div class="flex-container">
+                <div>
+                    <h2>About</h2>
+                    <p>I'm baby man bun echo park sartorial post-ironic small batch. Forage tacos gluten-free celiac. Godard
+                        tacos tumblr aesthetic ugh. Scenester pop-up subway tile, kitsch waistcoat try-hard live-edge
+                        unicorn kale chips skateboard shaman. Man braid drinking vinegar biodiesel bitters portland. Cliche
+                        retro cold-pressed fashion axe raw denim poutine.
+                    </p>
+                </div>
+                <div class="footerLogo">
+                    
+                </div>
+                <div>
+                    <h2>Find Something</h2>
+                    <input type="text" placeholder="Search..">
+                </div>
+            </div>
+        </footer>
+    </main>
+
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

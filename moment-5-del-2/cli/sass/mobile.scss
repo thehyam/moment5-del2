@@ -1,0 +1,45 @@
+/*Mobile*/
+@media screen and (max-width: 600px) {
+    p {
+    font-size: 18px;
+    }
+    
+.topnav {
+    overflow: hidden;
+    background-color: #b1caa9;
+    position: relative;
+  }
+  
+  .topnav #myLinks {
+    display: none;
+  }
+  
+  .topnav a {
+    color: white;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+  }
+  
+  .topnav a.icon {
+    background: #b1caa9;
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .active {
+    background-color: #b1caa9;
+    color: white;
+  }
+  .logo a {
+      color: #b1caa9;
+  }
+    }
